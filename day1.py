@@ -58,6 +58,39 @@ print("Hello World")
  #this is a comment
  print("Hello World")
 
+ 4.----INDIENTATION IN PYTHON----
+
+ Indentation means spaces at the beginning of a line.
+ 🔹 Example:
+ if 10 > 5:  
+       print("10 is greater than 5")
+
+       WRONG INDIENTATION❌
+🔹 Example:
+ if 10 > 5:  
+ print("10 is greater than 5")
+
+
+
+ 5.--- PYTHON EXECUTION PROCESS----
+
+       Python Source Code (.py)
+                    │
+                    ▼
+      Compilation to Bytecode (.pyc)
+                    │
+                    ▼
+    Python Virtual Machine (PVM)
+                    │
+                    ▼
+               Program Output
+🔹 Explanation:
+
+               1.Python Code(.py):The programmer writes the Python program in a .py file.
+               2.Bytecode(.pyc).Python automatically convert the source code into bytecode,
+               which is an intermediate form of the program.
+               3.Python Virtual Machine (PVM):The PVM reads and executes the bytecode line by line.
+               4.Output:The program produces the desired result and display it to the user.
 """
 
 
