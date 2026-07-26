@@ -64,6 +64,44 @@ Dynamic typing means you do not need to declare the data type of a variable pyth
   🔹Python automatically detects the variables data type.
 
 
+4.Rules for Naming Variables-----
+    🔹A variable name must start with a letters or an undercore(_).
+    🔹It can no start with a number.
+    🔹 It can contain letters, numbers,and underscores(_).
+    🔹Python keywords (like if,for,class) cannot be used as variables names.
+
+ 🔹Example:
+ name = "Krutika" #Valid
+ _age = 20 #Valid
+ 1name = "John"  #Invalid
+ class = "Python" #Invalid
+
+
+5.Case sensitivity in python 
+
+Python is case-sensitive, which uppercase and  lowercase letters are treated as different.
+
+ 🔹Example:
+ age = 20
+ Age = 25
+
+ print(age) #output: 20
+ print(Age) #output: 25
+
+ Here, age and Age are two diffrent variables.
+  
+6.Multiple Assignment
+ 
+Multiple assingment allows you to assign values ti mutiple variables in a single line.
+
+🔹Example:
+
+a,b,c = 10,20,30
+
+print(a)
+print(b)
+print(c)
+
 
 """
 
