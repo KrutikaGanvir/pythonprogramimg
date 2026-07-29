@@ -103,5 +103,55 @@ print(b)
 print(c)
 
 
-"""
 
+7.Constant in Python 
+
+A constant  is a value that should not change during the excecution of a program.
+
+Python does not have true constants, so programmers use UPPERCASE names to indicates constant values.
+
+#SYNTAX
+PI = 3.14
+MAX_SPEED = 120
+
+
+ #🔹Example NO. 1:
+PI = 3.14
+radius =  5
+area = PI * radius * radius 
+print("Area =", area)
+
+
+ #🔹Example NO. 2:
+MAX_SPEED = 120
+print("Maximum Speed:", MAX_SPEED)
+
+#ADVANTAGE
+🔸Makes code easier to understand
+🔸Improve maintainability by storing fixed values in one place.
+
+9.Keyword and Identifiers
+◽Keyword:
+Keywords are reserved words in Python that have  a predefined meaning. 
+They cannot be used as variables,function , or class names
+
+ #🔹Example
+  if
+  esle
+  for
+  While
+  True
+  False
+
+◽Identifiers:
+Identifier are names given to variables ,function ,class or object by the programmer.
+
+ #🔹Example
+
+name = "Riya"
+age = 20
+total_marks = 85
+  
+
+Here, name ,age and total_marks are indentifiers
+"""
