@@ -60,4 +60,36 @@ is_pass = True   #bool
  Type of Number Data Types
  1.int - Stores Whole numbers.
  2.Float - Store decimal(Floating-point)numbers
+ 3.complex- Stores compelx numbers with a real and an imaginary part.
+
+
+
+#🔹 Example:
+
+a = 10
+b = 3.14
+c = 2 + 3j
+
+output:
+a = 10
+b = 3.14
+c = (2 +3j)
+
+13.String data type
+
+A String (str) is a  Python  data type to store text  or a sequence of characters .
+It  is written inside single quotes , double quotes or triple qoutes.
+
+#🔹 Example:
+
+name = "Python"
+message = 'hello'
+
+  
+🔸Features
+Stores text or characters.
+Enclosed in single, double, or triple quotes.
+Strings are immutable (cannot be changed after creat
+
+
 '''
