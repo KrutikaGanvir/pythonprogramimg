@@ -77,7 +77,7 @@ c = (2 +3j)
 
 13.String data type
 
-A String (str) is a  Python  data type to store text  or a sequence of characters .
+◽ String (str) is a  Python  data type to store text  or a sequence of characters .
 It  is written inside single quotes , double quotes or triple qoutes.
 
 #🔹 Example:
@@ -91,5 +91,61 @@ Stores text or characters.
 Enclosed in single, double, or triple quotes.
 Strings are immutable (cannot be changed after creat
 
+14>Boolean Data Type
 
+◽A Boolean (bool) is  a data type that stores only two values : True  or False. It is mainly used in condition and decision -making.
+
+#🔹 Example:
+is_student = True
+is_logged_in = False
+
+print(is_student)  # Output: True
+print(is_logged_in) #Output:False
+
+🔸Features
+🔹Stores only True or False
+🔹Used in if statements and comparisons
+🔹Data type is bool.
+
+
+15.NoneType
+
+◽NoneType is a Python data type that represents no value  or null value
+The only value of NoneType is None.
+
+#🔹 Example:
+x = None
+print(x)  # output:none
+
+🔸Features
+🔹Represents no value or empty value.
+🔹The only value is none.
+🔹Its data type is NoneType.
+
+
+16. Collection Data Types
+
+◽Collection data type are used to store multiple values in a single variables.
+
+🔸Type of Collection Data Type
+🔹list - Ordered and mutable collection.
+🔹Tuples - Ordered and immutable collection.
+🔹Set - Unoreded collection of unique elements.
+🔹Dictionary - Collection of key - values pairs.
+
+# 🔹Examples No. 1:
+
+my_list = [10,20,30]
+my_tuple = (1,2,3)
+my_set = {5 , 6, 7}
+my_dict ={"name": "Krutika", "age":20}
+
+🔸Features
+🔹Stores multiple values
+🔹Different collection type have diffrent properties
+🔹Makes data organized and easy to manage.
+
+# 🔹Examples No. 2:
+numbers = [10,20,30]
+student = {"name": "krutika", "age":20}
 '''
