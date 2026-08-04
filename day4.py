@@ -64,4 +64,75 @@ print("Age:", age)
 Taking decimal input:
 marks = float(input("Enter marks:"))
 print("Marks:",marks)
+
+20.print()function-------
+◽The print function is used to display output on the screen in python.
+
+syntax:
+print(value)
+
+# 🔹Examples:
+name = "Krutika"
+print("Welcome",name)
+
+output:
+Welcome Krutika
+
+
+21. Type Conversion -----
+Type Conversion is the process of converting one data type into another in Python
+
+Python provied built-in function such as int(), float(), str(), and bool() for type conversion.
+
+
+# 🔹Examples:
+
+x = "100"
+y = int(x)
+
+print(y)
+print(type(y))
+
+output:
+100
+<class 'int'>
+
+🔸Common Type Conversion Functions----
+🔹int() -> convert to interger
+🔹float() -> convert to float
+🔹str() -> convert to string
+🔹bool() -> convert to boolean
+
+There are two types of type conversion in python:
+1. Implicit Type Conversion (Automatic)
+2. Explicit Type Conversion (Manual)
+
+1. Implicit Type Conversion (Type Casting)---
+Python automatically converts one data type into another  without user intervation.
+
+
+# 🔹Examples:
+
+x =10
+y = 2.5
+result = x + y
+
+2.explicit Type Conversion (Manual)
+In Explicit Type Conversion , the programer manually converts one data type into another using built-in
+ function like int(), float(),str(),and bool().
+
+# 🔹Examples:
+
+x = "100"
+y = int(x)
+print(y)
+print(type(y))
+
+output:
+
+100
+<class 'int'>
+
+
+
 """
