@@ -45,4 +45,55 @@ print(a+b)
 print(a%b)
 print(a**b)
 
+24.Assignment Operator 
+
+◽Assingment operator are used to aasign or update values of variables
+
+Common Assignment Operators
+
+Operator                    Meaning                   Example:
+
+=                        Assign                        x = 10
+
++=                       Add and assign                x += 5
+ 
+-=                       Subtract and assign           x -= 5
+
+*=                       Muliply and assign            x *=  5
+
+/=                       Divide and assign             x /= 5
+
+%=                       Modulus and assign            x %= 5
+
+
+🔹Example:
+
+x = 10 
+x += 5
+print (x)
+
+
+25. Camparison operator 
+
+Camparision operator are used to campare two values. They return a Boolean values( True or False).
+
+Operator                  Meaning                  Example
+==                       Equal to                   10 == 10 ---> True
+!=                       Not equal to               10 != 5  --->  True
+>                        Greater than               10 > 5   --->   True
+<                        Less  than                 10 < 5   --->    False
+>=                       Greater than or equal to   10 >= 10 ---> True
+<=                     
+
+🔹Example:
+
+a = 10 
+b = 5
+
+print(a > b)
+print( a == b)
+
+Output:
+True
+False
          """
