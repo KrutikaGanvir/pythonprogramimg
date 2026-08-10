@@ -96,4 +96,31 @@ print( a == b)
 Output:
 True
 False
+
+
+26.logical Operator 
+◽Logical operator are used to combine or reverse condition . They return True or Fasle.
+
+Types  
+
+
+Operator                        Meaning
+
+and                             True if both condition is true
+
+or                              True is at least one condition is true
+
+not                             Reverse the result
+
+
+🔹Example:
+
+a = 10
+b = 5
+
+print (a > 5 and b < 10)   # True
+print (a > 15 and b < 10)  # True
+print (not(a > 5))         #False
+
+
          """
