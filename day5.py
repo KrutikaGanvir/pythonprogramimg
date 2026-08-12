@@ -122,5 +122,36 @@ print (a > 5 and b < 10)   # True
 print (a > 15 and b < 10)  # True
 print (not(a > 5))         #False
 
+27.Bitwise Operator
+
+◽Bitwise operators are used to perform operation on the binary bits (0 and 1) of numbers.
+
+Types   
+Operator                         Meaning
+&                                 AND
+
+`                                  `
+
+^                                 XOR
+
+~                                 NOT
+
+<<                               Left Shift
+
+>>                               Right Shift
+
+
+🔹Example:
+
+a = 5
+b = 3
+
+print(a & b)
+print(a | b)
+
+
+#Output
+1
+7
 
          """
