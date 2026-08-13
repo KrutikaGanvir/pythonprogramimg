@@ -1,7 +1,7 @@
 
 # ----------------------------MINI PROJECT NO.4-------------------
 
-# ------------------------Create a restaurent biling system----------------------------
+# ------------------------Create a restaurent biling system----------------------
 
 
 class RestaurentOeder:
