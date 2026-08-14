@@ -154,4 +154,26 @@ print(a | b)
 1
 7
 
-         """
+28. Membership Operators
+◽ Membership operator are used to check whether a value exists in a sequence such as a list, tuple,string,or set
+
+ Type
+
+ Operator                      Meaning
+ in                           Return True if the value is present
+
+ not in                       Return True if the  value is not present
+
+
+ 
+ 🔹Example:
+
+ fruits = ["Apple", "Mango", "Banana"]
+
+ print("Mango" in fruits)
+ print("Orange" not in fruits)
+
+ Output:
+ True
+ True
+         """ 
