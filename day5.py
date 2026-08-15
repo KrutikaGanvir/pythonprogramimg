@@ -176,4 +176,30 @@ print(a | b)
  Output:
  True
  True
+
+ 29.Identity Operators 
+  
+ Identity operators  are used to check whether two variables refer to the same objectin memory.
+
+ TYPE
+
+ Operator                     Meaning
+
+ is                          Return True if both variables refer to the same object
+
+ is not                      Returns True if they refer to diffrents object
+   
+#🔹Example:
+
+a = [1,2,3]
+b = a
+
+print(a is b)
+print(a is not b)
+
+Output:
+True
+False
+
+
          """ 
