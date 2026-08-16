@@ -201,5 +201,62 @@ Output:
 True
 False
 
+30.Difference Betwween ===  and is
+ 
+ ==Operator
 
+ Cheack whether two values are equal.
+
+ is Operator
+
+ Check whether two variables refer to the same object in memory.
+
+ #🔹Example:
+
+ a = [1, 2, 3]
+ b = [1, 2, 3]
+
+ print(a == b)
+ print(a is b)
+
+ Output:
+ True
+ False
+
+Diffrence :
+
+==Operator                                        is Operator
+Check weather values are equal                    Checks whether both variables refer to the same object
+Used for value  comparision                       Used for identity comparison
+Example: a == b                                   Example: a is b
+Commonly used in condition                        Commonly used to campare with None
+
+31.Operator Precedence 
+
+Operator precedence means the order in which operators are executed in an expression.
+
+result = 10 + 5 * 2
+print(result)
+
+Output:
+20
+
+Why?
+
+*has higer precedence than +, so:
+10 + (5 * 2)
+= 10 + 10
+20
+
+Common Precedence Order
+
+From  higher to lower
+1.() --> Parenthesis 
+2.** --> Exponentiation 
+3.* ///% --> Multiplication,Division
+4.+ -   --> Addition, Subtraction
+5. == != > < >=  <= --> Comparison
+6. not -->  Logical NOT
+7.and --> logical AND
+8.OR ---> logical OR
          """ 
