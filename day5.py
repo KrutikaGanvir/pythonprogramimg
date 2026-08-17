@@ -233,8 +233,9 @@ Commonly used in condition                        Commonly used to campare with 
 
 31.Operator Precedence 
 
-Operator precedence means the order in which operators are executed in an expression.
+◽Operator precedence means the order in which operators are executed in an expression.
 
+ #🔹Example:
 result = 10 + 5 * 2
 print(result)
 
@@ -248,7 +249,7 @@ Why?
 = 10 + 10
 20
 
-Common Precedence Order
+--Common Precedence Order--
 
 From  higher to lower
 1.() --> Parenthesis 
@@ -259,4 +260,21 @@ From  higher to lower
 6. not -->  Logical NOT
 7.and --> logical AND
 8.OR ---> logical OR
+
+ #🔹Example:
+
+result = 20 - 4 * 3 +  2
+print(result) 
+ 
+Output:
+10
+
+why?
+First * is performed because multiplication has higher precedence:
+
+20 - (4 * 3) + 2
+= 20 - 12 + 2
+= 10
+
+Remember: * is performed before + and -.
          """ 
