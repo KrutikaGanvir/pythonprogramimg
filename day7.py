@@ -32,4 +32,17 @@ if age >= 18:
 
 else:
     print("Not eligible to vote")    
+
+3. Important Operators Used in Conditions------
+
+◽In python , operators are symbols or keywords used to compare values and combine conditions. They are mainly used if , elif , and else statements.
+
+1.Comparison Operators
+
+Comparison operators compare two values and return either True or False.
+
+Operator                     Meaning                               Example              Result 
+==                           Equal to                              5 == 5               True
+!=                           Not equal to                          5 != 3               True
+>                            Greater than                          5 > 3                True
 '''
