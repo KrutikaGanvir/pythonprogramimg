@@ -2,6 +2,8 @@
 
  #🔸1. What is a Conditional Statement?
 '''
+
+
 Conditional statement are used to make decision in a Python propgram based on wheather a condition is True or False.
 
 🔹Simple Example:
@@ -20,6 +22,11 @@ Types of Conditional Statements
 5.Conditional Expression (Ternary Operator)-Short form  of if - else .
 
 
+
+
+
+
+
 2. Why Do We Use Conditional Statements?
 
 Conditional statement are used to make decision in aprogram based on a given condition.
@@ -31,7 +38,12 @@ if age >= 18:
     print("Eligible to vote")
 
 else:
-    print("Not eligible to vote")    
+    print("Not eligible to vote")  
+
+
+
+
+
 
 3. Important Operators Used in Conditions------
 
@@ -45,4 +57,19 @@ Operator                     Meaning                               Example      
 ==                           Equal to                              5 == 5               True
 !=                           Not equal to                          5 != 3               True
 >                            Greater than                          5 > 3                True
+<                            Less than                             5 < 3                False
+>=                           Greater than or equals to             5 >= 5              True
+<=                           Leass than or equal to                3 <= 5              true
+
+
+
+
+🔹Simple Example:
+
+
+age = 20
+
+if age >= 18:
+print("You are eligible to vote.")
+
 '''
