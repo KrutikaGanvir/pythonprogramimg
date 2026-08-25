@@ -66,10 +66,92 @@ Operator                     Meaning                               Example      
 
 🔹Simple Example:
 
-
 age = 20
 
 if age >= 18:
 print("You are eligible to vote.")
 
-'''
+
+
+
+2.Logical Operator
+
+◽Logical opreator are used to combine multiple conditions.
+
+-----------------
+🔺and
+Returns True only when both condition are true.
+
+🔹# Example:
+
+age = 20 
+marks = 75
+
+if age >= 18 and marks >= 50:
+print("Eligible")
+
+
+--=---------------
+
+🔺or
+Returns True when at least one condition is true.
+
+
+🔹# Example:
+
+age = 17 
+has_permission = True
+
+if age >= 18 or has_permission:
+     print("Allowed")
+
+     
+-----------------  
+
+🔺not
+ Reverse the result of a condition.
+
+ is_raining = False
+
+ if not is_raining:
+   print("you can go outside.")
+
+
+
+3.Membership Operator
+
+Membership operator check whether a value exists inside a sequence such as a list,tu[le,string,etc
+
+▪️in -->  value exists
+▪️not in --> value does not exist
+
+🔹# Example:
+
+fruits =[ "apple" , "banana", "mango"]
+
+if "mango" in fruits:
+    print("Mangon is available.")
+
+
+
+
+4. Identitty Operators
+
+Identify operators check whether two variables refer to the same object.
+
+▪️is 
+▪️is not  
+
+🔹# Example:
+    
+a = None
+
+if a  is None:
+    print("No value")
+
+IMPORRTANT NOTE:
+
+==  Check wether two values are equal , while is check whether they are the same object.
+
+    '''
+
