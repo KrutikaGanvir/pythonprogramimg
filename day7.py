@@ -152,6 +152,35 @@ if a  is None:
 IMPORRTANT NOTE:
 
 ==  Check wether two values are equal , while is check whether they are the same object.
+---------------------------------------------
 
-    '''
+4.Indentation in Condition Statement 
+
+Indentation means giving spaces at the beginning of a line to show which statement belong to a conditional block.
+
+Python uses indentation  to define the  block of code.
+
+🔹# Example:
+
+age = 18
+
+if age >= 18:
+    print("You can vote")
+ 
+
+Here, the space before print()  shows that it belongs to the if statement .  
+
+
+IMPORRTANT NOTE:
+
+🔸Usually 4 spaces are uesd for indentation.
+
+🔸Incorrect indentation  caues an IndentationError.
+
+
+
+  '''
+
+
+   
 
