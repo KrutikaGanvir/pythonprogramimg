@@ -177,10 +177,48 @@ IMPORRTANT NOTE:
 
 🔸Incorrect indentation  caues an IndentationError.
 
+5. If Statement in Python
+
+The if statement is used to execute a block of code only a given condition is True.
+
+▪️Syntax:
+
+if condition:
+    statement
 
 
-  '''
 
+🔹# Example:
+
+age = 20
+
+if age >= 18:
+print("Eligible to vote")
+
+6.If - else statement in Python
+
+The if -else statement is uesd to choose between two blocks of code.
+
+🔸If the condition is True --> if block runs.
+
+🔸If the condtion is False --> else block runs.
+
+▪️Syntax:
+
+if condition:
+    statement1
+else:
+    statement2    
+
+'''
+  
+
+age = 16
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print ("Not eligible to vote")
 
    
 
