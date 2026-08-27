@@ -210,8 +210,7 @@ if condition:
 else:
     statement2    
 
-'''
-  
+🔹# Example:
 
 age = 16
 
@@ -220,5 +219,20 @@ if age >= 18:
 else:
     print ("Not eligible to vote")
 
+
+ More Examples of if-else Statement
+
+ ex no 1:Check Even Or Odd
+
+   
+
+num = 10 
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+    
+    '''
    
 
