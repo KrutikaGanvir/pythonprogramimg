@@ -219,20 +219,77 @@ if age >= 18:
 else:
     print ("Not eligible to vote")
 
-
- More Examples of if-else Statement
+----------------------------------------------------------------------
+ 🔺More Examples of if-else Statement
 
  ex no 1:Check Even Or Odd
 
    
-
 num = 10 
 if num % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+------------------------------------------
+
+
+ ex no 2:Check Pass or Fail
+    
+
+marks = 35
+
+if marks >= 40:
+    print("pass") 
+else:
+    print("Fail")
 
     
-    '''
-   
+
+ ex no 3:Check Positive   or Negative
+      
+
+num = -5
+
+if num >= 0:
+    print("Positive Number")
+
+else:
+    print("Negative Number")    
+-----------------------------------------------------
+
+
+7.if-elif-else Statement in Python
+
+
+DEFINITION:
+◽The if-elif-else  statement is used to check multiple conditions.
+🔹if --> checks the first condition.
+🔹elif --> Checks another condition if the previous condition is False.
+🔹else ---> Runs when all condition are False.
+
+
+Syntax:
+
+if condition:
+    statement
+  elif condition2:
+    statement
+  else:
+    statement
+
+
+🔹# Example:Grade
+
+marks = 75
+
+if marks >= 90:
+    print ("Grade A+")
+elif marks >= 60:
+    print ("Grade A")
+else:
+    print ("Grade B")
+
+
+
+'''
 
