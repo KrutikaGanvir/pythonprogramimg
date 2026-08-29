@@ -290,6 +290,38 @@ else:
     print ("Grade B")
 
 
+8. Nested if statement in python 
 
-'''
+◽A Nestead if statement means using one if statement inside another if statement.
 
+It is uesd when we need  to check more than one condition step by step
+
+# Exanple no 1:
+
+
+
+age = 20 
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("Entry Allowed")
+    else:
+        print("ID Required")
+else:
+    print("Not Eligible")
+
+# Exanple no 1:Login Check
+
+username = "admin"
+password = "1234"
+
+if username == "adimn":
+  if password == "1234":
+    print("Login Successfull")
+  else:
+    print("Wrong Password") 
+else:
+  print("Wrong Username")
+
+  '''
