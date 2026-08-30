@@ -311,6 +311,7 @@ if age >= 18:
 else:
     print("Not Eligible")
 
+    
 # Exanple no 1:Login Check
 
 username = "admin"
@@ -323,5 +324,64 @@ if username == "adimn":
     print("Wrong Password") 
 else:
   print("Wrong Username")
+----------------------------------------------------
+  
+
+
+  9. Short- Hand if Statement in Python
+
+ ◽ A Short-Hand if is a simple way tom write an if  statement in one line.
+
+
+  Syntax:
+  if condition: statement
+
+  
+# Exanple no 1:Check age
+
+age = 20
+
+if age >= 18:print("Adult")
+
+
+# Exanple no 2:Check Even Number
+
+num = 10
+
+if hum % 2 == 0:print("Even Number")
+
+# Exanple no 3:Check Positive Number
+
+num = 5
+
+if num > 0:print("positive")
+
+
+----------------------------------------------------------------
+
+10. Short-Hand if-else / Ternary Operator
+
+
+◽The Ternery Operator ios a short way to write an if-else statement in one line.
+
+SYNTAX:
+
+value_if_true if condition else value_if_false
+
+
+#🔹Exanple  no 1:check age
+age = 20
+
+result = "Adult" if age >= 18 else "Not Adult"
+
+print(result)
+
+
+#🔹Exanple no 2:Pass Or Fail
+marks = 65
+
+result = "Pass" if marks >= 40 else "Fail"
+
+print(result)
 
   '''
