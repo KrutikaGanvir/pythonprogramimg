@@ -384,4 +384,48 @@ result = "Pass" if marks >= 40 else "Fail"
 
 print(result)
 
-  '''
+
+11. Using Logical Operators in Conditions
+
+◽Logical operator are uesd to combine multiple condition in if statements.
+
+The main logical operator are:
+
+🔹and --> Both condition must be True.
+🔹or ---> At least one condition must be True.
+🔹not -->  Reverse the condition.
+
+
+#🔹Exanple no:1
+
+age = 20
+has_id = True
+
+if age >= 18 and has_id:
+    print("Entry Not Allowed")
+else:
+    print("Entry Not Allowed")
+
+    
+    
+#🔹Exanple no:2
+ 
+
+marks = 80 
+
+if marks >= 40 and marks <= 100:
+    print("Valid Marks")
+
+   
+
+    
+#🔹Exanple no:3
+
+is_raining = False
+
+if not is_raining:
+    print("Go Outside")
+else:
+    print("Stay Inside")
+
+     '''
