@@ -1,7 +1,7 @@
 '''
 --------------------------Practice Problem-----------------  
 
-1. Write a program to check whether a number is greater than 100 or not.
+🔸1. Write a program to check whether a number is greater than 100 or not.
 
  
 num = int (input("Enter a number:"))
@@ -11,7 +11,7 @@ else:
     print("The number is not greater than 100.")
 
     
-2. Write a program to check whether marks are pass or fail.
+🔸2. Write a program to check whether marks are pass or fail.
 
 
 marks = int(input("Enter your marks:"))
@@ -22,7 +22,7 @@ else:
     print("Fail")
 
 
-3. Write a program to check whether a number is even or odd.
+🔸3. Write a program to check whether a number is even or odd.
 
     
 num = int(input("Enter a number:"))
@@ -34,7 +34,7 @@ else:
 
     
 
-4. Write a program to check whether a number is positive, negative, or zero.
+🔸4. Write a program to check whether a number is positive, negative, or zero.
 
 
   
@@ -50,8 +50,8 @@ else:
 
     
 
-20. Write a program to find the smallest of two numbers.
-      ''' 
+🔸5. Write a program to find the smallest of two numbers.
+     
 num1 = int(input("Enter first number:"))
 num2 = int(input("Enter second number:"))
 
@@ -60,3 +60,39 @@ if num1 < num2:
 else:
    print("The smallest number is:", num2)
 
+   
+
+🔸6. Program to Find the Largest of Three Numbers 
+
+
+a = 10 
+b = 25
+c = 15
+
+if a > b and a > c:
+    print("Largest =", a)
+elif b > a and b > c:
+    print("largest =", b)
+else:
+    print("Largest =", c)
+
+    
+🔸7.Program to Check Driving License Eligibility   
+     
+
+age = int(input ("Enter your age:"))
+
+if age >= 18:
+    print("Eligible for driving license")
+else:
+    print("Not eligible for driving license")
+
+🔸8. Write a program to check whether a number is divisible by 7.
+
+     ''' 
+num = int(input("Enter a number:"))
+
+if num % 7 == 0:
+    print("The number is divisible by 7")
+else:
+    print("Number is not divisible  by 7")
