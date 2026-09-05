@@ -89,10 +89,49 @@ else:
 
 🔸8. Write a program to check whether a number is divisible by 7.
 
-     ''' 
+   
 num = int(input("Enter a number:"))
 
 if num % 7 == 0:
     print("The number is divisible by 7")
 else:
     print("Number is not divisible  by 7")
+
+    
+🔸9. Write a program to check whether username and password are correct.
+     
+username = input("Enter username:")
+password = input("Enter password:")
+
+if username == "admin" and password == "1234":
+    print("Login sucessful")
+else:
+    print("Invalid username or password.")
+
+
+   🔸10.. Write a program to print grade using marks. 
+ 
+
+marks = int (input("Enter your marks:"))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print ("Grade F")
+
+
+🔸11. Write a program to check whether a year is leap year.
+
+     '''
+
+year = int(input("Enter a year:"))
+
+if year  % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+    print("Leap year")
+
+else:
+    print ("Not a leap year")
