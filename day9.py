@@ -126,7 +126,7 @@ else:
 
 🔸11. Write a program to check whether a year is leap year.
 
-     '''
+
 
 year = int(input("Enter a year:"))
 
@@ -135,3 +135,66 @@ if year  % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
 
 else:
     print ("Not a leap year")
+
+
+🔸 12. Write a program to calculate discount based on purchase amount.
+
+       
+amount = float(input("Enter purchase amount:"))
+
+if amount >= 5000:
+    discount = amount * 20 / 100
+elif amount >= 3000:
+    discount =amount * 10 / 100
+elif amount >= 1000:
+    discount = amount * 5 / 100
+else:
+    discount = 0
+
+    final_amount =  amount - discount
+
+    print ("Discount =", discount)
+    print ("Final Amount =", final_amount)
+
+🔸13. Write a program to check whether a character is uppercase or lowercase.
+
+  
+
+ch = input ("Enter a character:")
+
+if ch.isupper():
+    print("Uppercase")
+elif ch.islower():
+    print("Lowercase")
+else:
+    print("Not an alphabet")
+
+    
+🔸14. Write a program to check whether a number is two-digit or not.
+      
+
+num = int(input("Enter a number:"))
+
+if 10 <= abs(num) <=99:
+    print("Two-digit number")
+else:
+    print("Not a two- digit number")
+
+    
+🔸15. Write a program to create a simple calculator. 
+
+      '''
+a = float(input("Enter first number:"))
+op = input("Enter operator(+,-,*,/):")
+b = float(input("Enter second number:"))
+
+if op == "+":
+    print("Result =", a + b)
+elif op == "-":
+    print("Result =", a - b)
+elif op == "*":
+    print("Result =", a * b)
+elif op == "/":
+    print("Result =", a / b)
+else:
+    print("Invalid operator")
