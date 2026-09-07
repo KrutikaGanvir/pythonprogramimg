@@ -183,7 +183,6 @@ else:
     
 🔸15. Write a program to create a simple calculator. 
 
-      '''
 a = float(input("Enter first number:"))
 op = input("Enter operator(+,-,*,/):")
 b = float(input("Enter second number:"))
@@ -198,3 +197,14 @@ elif op == "/":
     print("Result =", a / b)
 else:
     print("Invalid operator")
+
+
+   🔸16 . Program to Find the Factorial of a Number
+      '''
+num = int(input("Enter a number:"))
+fact = 1
+
+for i in range(1, num + 1):
+    fact = fact * i
+
+    print("Factorial =", fact)
