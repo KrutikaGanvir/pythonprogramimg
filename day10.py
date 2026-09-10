@@ -41,7 +41,27 @@ Example:
  print(5)
 
  Using loop:
-'''
+
 
 for i in range(1, 6):
     print(i)
+
+    
+ ▪️range() Function in python  
+
+ The range()  function is used to gererated a sequence of numbers, mainlly  with for loops.
+
+SYNTAX:
+  range(start , stop , step)
+
+  🔹start --> Starting number
+  🔹stop ---> Ending  limit (Not including)
+  🔹step --> Diffrent betwwen numbers
+
+Example:
+
+for i in range(2, 11, 2):
+print(i)
+
+    '''
+
