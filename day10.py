@@ -63,5 +63,43 @@ Example:
 for i in range(2, 11, 2):
 print(i)
 
-    '''
 
+🔸Whlie Loop 
+
+A while loop is used ton repeat a block of code as long as  a given condition is True.
+
+
+Syntax:
+
+while condition:
+    # code to repeat
+
+🔹Example:
+
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+    
+🔺How it works
+
+🔹 i = 1 1  --> starting value
+🔹 i <= 5 --> condition 
+🔹 i = i + 1 --> increases i after every loop
+🔹When i becomes 6, condition becomes False, so the loop stops.
+
+🔸break Statement:
+
+The break statement is used to immediate stop a loop ,even if the loop condition isn still true.
+
+🔹Example:
+
+for i in range(1, 6):
+ if i == 3:
+  break
+ print(i)
+    
+ When i becomes 3, break stops the loop
+
+'''
