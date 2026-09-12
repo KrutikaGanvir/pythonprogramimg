@@ -102,4 +102,50 @@ for i in range(1, 6):
     
  When i becomes 3, break stops the loop
 
-'''
+
+ 🔸Pass Statement:
+
+ The pass statement is used when you want to leave a block of code empty without causing an error.
+
+ It acts a placeholder for code that you will write later.
+
+
+ 🔹Example:
+
+for i in range(5):
+ pass
+    
+ 
+ print("Loop completed")
+
+🔹Example no:2
+
+
+
+age = 20
+
+if age >= 18:
+    pass
+else:
+    print("Not eligible")
+
+    
+ Here,pass means Do nothing / placeholder   
+
+
+ 🔸Nested Loop
+
+for i in range(1,4):
+   for j in range (1,4):
+     print(i ,j)
+
+
+
+How it Works:
+
+🔹 Outer loop --> i
+🔹Inner loop --> j
+🔹For every value of i, the inner loop runs 3 times.
+
+
+''' 
