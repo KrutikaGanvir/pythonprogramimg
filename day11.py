@@ -49,5 +49,48 @@ For 10: 1 + 2 + 3 + ...... + 10 = 55
 
 total = total + i adds each number to the total
 
+4.Find factorial of a number.
+  
+num = int(input("Enter a number:"))
+fact = 1
 
-    '''
+for i in range(1, num + 1):
+    fact = fact * i
+    print("Factorial =", fact)
+
+▪️Logic: 
+
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+Factorial = Multiplication of al, positive number from 1  to that number.
+
+
+5.Check prime number.
+ 
+
+num = int(input("Enter a number:"))
+
+if num < 2:
+    print(" Not a prime number")
+
+else:
+    prime = True
+
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+            break
+
+    if prime:
+            print("prime number")
+    else:
+         print("Not a prime number")
+
+
+  
+▪️Logic: 
+A prime number is a number that is divisible by only 1 and  itself.
+
+
+if any number from 2 to num- 1  divided it exactly --> Not Prime.
+ '''
