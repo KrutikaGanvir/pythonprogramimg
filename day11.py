@@ -93,4 +93,29 @@ A prime number is a number that is divisible by only 1 and  itself.
 
 
 if any number from 2 to num- 1  divided it exactly --> Not Prime.
+
+
+6.Reverse a number.
+
+
+num = int(input("Enter a number: "))
+
+reverse = 0
+while num > 0:
+    digit = num % 10
+    reverse =  reverse * 10 + digit
+    num  = num
+ 
+
+print*("reverse =" , reverse)
+  
+ 
+
+▪️Logic: 
+
+🔹num % 10 -- > gets the last digit.
+🔹reverse * 10 + digit --> adds the didgit  to the reverse number.
+🔹num // 10  --- > remove the last gdigit.
+
+
  '''
