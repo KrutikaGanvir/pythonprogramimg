@@ -118,4 +118,64 @@ print*("reverse =" , reverse)
 🔹num // 10  --- > remove the last gdigit.
 
 
+
+7.Check palindrome number.
+
+num = int (input("Enter a number:"))
+
+original = num
+reverse = 0
+
+while  num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+if original == reverse:
+    print("Palindrome number") 
+else:
+    print("Not a palindrome number")
+
+
+
+▪️Logic: 
+Reverse the number and compare it with the original number.
+same --> Palindrome; different --> Not Palindrome
+
+
+
+8.Print Fibonacci series.
+
+The fibonacci series is a sequence whwre each number   is the sum of the previous two numbers.
+
+
+Example: 0,1,1,2,3,5,8,13
+
+
+
+       
+
+
+n = int(input("Enter number of terms: "))
+
+a = 0
+b = 1
+
+for i in range (n):
+    print(a, end="")
+    a,b = b, a + b
+
+▪️Logic: 
+
+a , b = b , a + b -- >next number is obtained by adding the previouus numbers.
+
+
+
+9.Print star and number patterns.
  '''
+
+for i in range (1,6):
+   for j in range(i):
+      print("*", end=" ")
+   print()
+
