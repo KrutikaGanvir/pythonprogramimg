@@ -45,7 +45,52 @@ print("Sum of digit =" , total)
 ▪️Logic: 
 
 1 + 2 + 3 + 4 + 5 + = 15
-
+▪️Logic: 
 👉 % 10 ---> gets the last digit
 👉 // 10 ---> remove s the last digit
- '''
+
+
+4. Check Armstrong number.
+
+An Armstrong number is a number whose sum  of  each digit raised to the powweer of the number5 of digits is equal ton the original number.
+
+🔹Example:153
+
+ 1³ + 5³ + 3³ = 153
+
+
+
+
+num = int(input("Enter a number:"))
+original = num
+digits = len(str(num))
+total = 0
+
+while num > 0:
+    digit = num % 10
+    total = total + digit ** digits
+    num = num // 10
+
+if total == original:
+    print(" Armstrong number") 
+else:
+    print("Not an Arnstrong number")
+
+
+
+5. Print multiplication tables from 1 to 10.
+     
+for i in range(1, 11):
+     
+     print("Table of", i)
+
+     for j in range(1, 11):
+        print(i ,"x" , j, "=" ,1 * j)
+
+        
+▪️Logic: 
+outer loop(i) --> select table 1 to 10
+
+inner loop(j)---> print each table from 1 to 10.
+        
+'''
