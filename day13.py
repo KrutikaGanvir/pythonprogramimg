@@ -92,4 +92,33 @@ print(name[:: -1])
 🔹stop  = where to stop(not  include)
 🔹step = how many position to jump
 
+
+5.String Immutability
+
+String immutability means that once  a string is created , its charaters cannot be changed directly.
+
+▫️Example:
+
+name = "Python"
+
+name[0] = "j"
+
+This will give an error because string cannot be modified directly.
+
+Correct Way:
+
+Create a new string:
+
+name = "Python"
+name = "j" + name[1:]
+
+print(name)
+
+
+👉 Immutable = Cannot be change directly.
+
+So, Python strings are immutable.
+
+
 '''
+
