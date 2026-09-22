@@ -120,5 +120,25 @@ print(name)
 So, Python strings are immutable.
 
 
+
+Important String Methods:
+
+String method are built-i n  function used to perform operation on strings.
+
+Method                              Use                                 Example
+
+upper()                            Convert to uppercase                 "hello".upper() --> HELLO
+
+lower()                            Convert to lowercase                 "HELLO".lower()--> hello
+
+capitalize()                      First letter uppercase                "python".capitalize()---> Python
+
+title()                           First letter of each word             "hello world".title() ---> Hello world
+                                  uppercase
+
+strip()                           Renoves space from both ends          "hello ".strip() -- > hello
+
+replace()                         Repalce  text                         "Hello".replace("H", "J") --> Jello
+
 '''
 
