@@ -140,5 +140,26 @@ strip()                           Renoves space from both ends          "hello "
 
 replace()                         Repalce  text                         "Hello".replace("H", "J") --> Jello
 
+split()                           Convert string into a list            "a b  c".split() --->  ['a', 'b' ,'c']
+
+join()                            Join list/string elements             "-".join(["A","B"]) --->A-B
+
+find()                            Find position of the                  "Python". find("t")--> 2
+
+count()                           Count occurence                       "banana"..count("a") --> 3
+
+startwith()                       Check starting text                    "Python". startwith("py")--->True
+
+endswith()                        Checks  ending text                    "Python".endwith("on")c -- > True
+
+isdigit()                         Checks whether  all are digits         "123".isdigit()--> True
+
+isalpha()                        Checks whather all are letters           "Python".is alpha() -- > True
+
+
+isalnum()                        Checks letters + numbers                 "Python123". isalnum() --> True         
+ 
+
+
 '''
 
