@@ -157,9 +157,55 @@ isdigit()                         Checks whether  all are digits         "123".i
 isalpha()                        Checks whather all are letters           "Python".is alpha() -- > True
 
 
-isalnum()                        Checks letters + numbers                 "Python123". isalnum() --> True         
- 
+isalnum()                        Checks letters + numbers                 "Python123". isalnum() --> True
 
+
+🔹Example:
+
+
+text = "hello python"
+
+print(text.upper())
+print(text.lower())
+print(text.title())
+print(text.replace("python", "world"))
+print(text.count("o"))
+
+
+
+String Formating in python
+
+String formatting means inserting variables or values  into a string in a clean  and readable way.
+
+
+🔹Example:
+
+1.Using f-string --
+
+name = "Krutika"
+age = 20
+
+print(f"my name is {name} and i am {age} years old.")
+
+
+
+
+2.Using format()
+
+
+name = "Krutika"
+age = 20
+
+print("My name is {}  and I am {} year old." .format(name, age))
+
+3.Formatting Numbers
+
+
+price = 99.5678
+
+print(f"Price = {price:.2f}")
+
+
+ ▫️Here, .2f means 2 digits after the decimal point.
 
 '''
-
