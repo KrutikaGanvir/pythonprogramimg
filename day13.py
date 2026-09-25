@@ -173,7 +173,7 @@ print(text.count("o"))
 
 
 
-String Formating in python
+6.String Formating in python
 
 String formatting means inserting variables or values  into a string in a clean  and readable way.
 
@@ -207,5 +207,34 @@ print(f"Price = {price:.2f}")
 
 
  ▫️Here, .2f means 2 digits after the decimal point.
+
+
+
+ 8.Escape Characters
+
+Escape characters are special characters used inside a string by using a backslash \.
+
+They are used to represent things like a new line, tab, quotes, etc.
+
+
+
+🔸Important Escape  Characters
+
+    
+Escape Character                   Meaning                        Example
+
+\n                               New line                       "Hello\nWorld"
+\t                               Tab space                       "Hello\tworld"
+\\                               Backslash                       "C:\\Python"
+\'                              Single quote                      'It\'s good'
+\"                              Double quotes                      "he said \"Hello\""
+\b                              Backspace                          "Hell\bo"
+
+
+🔹Example:
+
+print("Hello\nWorld")
+print("Name:\tDipanshu")
+
 
 '''
