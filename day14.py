@@ -93,4 +93,40 @@ print("Consonants =" , consonants)
 🔹Other alphabets ---> Consonents
 🔹isalpha() ignores spaces, numbers, and symbols
 
- '''
+
+7.Frequency of each Charracter 
+
+
+text = "hello"
+frequency = {}
+for  char in text:
+    frequency[char] = frequency.get(char, 0) + 1
+
+print(frequency)   
+
+
+8.Check Wheather   two string  are anagrams
+ 
+str1 = "silent"
+str2 = "listen"
+
+if sorted(str1) == sorted(str2):
+    print("Anagram")
+else:
+    print("Not Anagram")
+
+    
+
+
+9.Remove the space from a string
+
+text = "Hello world python"
+
+result = text.replace(" ",  "")
+
+print(result)
+
+
+
+
+'''
