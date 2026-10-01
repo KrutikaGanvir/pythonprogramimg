@@ -2,7 +2,7 @@
 
 #....................List in Python................................
 
-1.Meaning of List in Python
+🔹Meaning of List in Python
 
 A list in Python is a collection of multiple items stored in a single variable. A list is written using square bracket[], and its elements are seperated by commas.
 
@@ -47,7 +47,7 @@ Indexing start at 0. Negative index -1 refers to the last element.
 
 🔸Example :
 
-'''
+
 data =[ 110, "Hello", 20, 10]
 print(data[0])    # indexing
 print(data[1:3])   #Slicing
@@ -55,3 +55,52 @@ data[0] = 50       # Modification
 data.append(30)      # Adding an element
 
 print(data)
+
+
+🔹Accessing List Elements
+
+List elements are accessed using index numbers. Python indexing starts from 0.
+
+1. Positive Indexing:
+
+
+fruits = ["Apple", "Mango", "Orange"]
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+
+2. Negative Indexing
+
+
+fruits = ["Apple", "Mango", "Orange"]
+print(fruits[-1])
+print(fruits[-2])
+print(fruits[-3])
+
+
+3. Accessing Using a Variable
+
+numbers  = [10,20,30,40,50]
+
+i = 2
+print(numbers[i])
+
+
+4. Accessing Multiple Elements — Slicing
+
+
+numbers = [10, 20, 30, 40, 50]
+print(numbers[1:4])  # Prints elements from index 1 to 3
+print(numbers[:3])   # Prints elements from the beginning to index 2
+print(numbers[2:5])  # Prints elements from index 2 to 4
+print(numbers[::2])  # Prints every second element
+
+
+5. Accessing All Elements Using a Loop
+
+numbers = [10, 20, 30, 40, 50]
+for n in numbers:
+    print(n)
+'''
