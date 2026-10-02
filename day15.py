@@ -7,7 +7,7 @@
 A list in Python is a collection of multiple items stored in a single variable. A list is written using square bracket[], and its elements are seperated by commas.
 
 
-🔸Examplev No:  1. Create and print a list
+🔸Example No:  1. Create and print a list
 
 fruits = ["Apple", "Mango", "Banana", "Orange"]
 print(fruits)
@@ -103,4 +103,43 @@ print(numbers[::2])  # Prints every second element
 numbers = [10, 20, 30, 40, 50]
 for n in numbers:
     print(n)
+
+
+🔹Changing List Values   
+
+Python lists are mutable, which mneans we can  change their elements after creating the list.
+
+We can change a list value by using its index number.
+
+
+🔸Example No: 1. Change a Single Value
+
+fruits = ["Apple", "Mango","Banana"]
+fruits[0] = "Orange"
+print(fruits)
+
+
+
+🔸Example No:2. Change Multiple Values
+
+numbers = [ 10, 20, 30, 40, 50]
+
+numbers[1:3] = [25, 35]
+print(numbers)
+
+🔸Example No: 3. Change the Last Value
+
+names = [ "Rahul" , " Amit", "Rohit"]
+names[-1] = "Vijay"
+print(names)
+
+🔸Example No: 4.changing the values using user input
+
+numbers = [10, 20, 30]
+
+new_values = int(input("Enter new values:"))
+numbers[1] = new_values
+print(numbers)
+
+
 '''
