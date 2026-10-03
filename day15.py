@@ -142,4 +142,62 @@ numbers[1] = new_values
 print(numbers)
 
 
+🔹Important List Methods
+
+List method are built-in function used to add, remove, change, serach, and arrange element in list.
+
+1. append()
+
+🔸Example: Adds an element at the end of the list.
+
+numbers = [ 10, 20, 30]
+numbers.append(40)
+print(numbers)
+
+
+2. insert()
+
+🔸Example: Adds an element at a specific index.
+
+numbers = [10, 20, 40]
+numbers.insert(2, 30)
+print(numbers)
+
+
+
+3. remove()
+
+🔸Example: Removes  a specific value.
+
+numbers = [10, 20, 30, 40]
+numbers.remove(20)
+print(numbers)
+
+
+4. pop()
+
+Removes an element using its index. if no index is given , is given , it removes the last element.
+
+numbers = [10,20,30,40]
+numbers.pop(1)  
+print(numbers)
+
+
+5. clear()
+Removes all elements from the list.
+
+
+numbers = [10,20, 30]
+numbers.clear()
+print(numbers)
+
+
+
+6.sort()
+
+Arranges elements in ascending order.
 '''
+numbers = [40,10,30,20]
+numbers.sort()
+print(numbers)
+
