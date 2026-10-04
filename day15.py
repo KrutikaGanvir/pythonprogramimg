@@ -196,8 +196,45 @@ print(numbers)
 6.sort()
 
 Arranges elements in ascending order.
-'''
+
 numbers = [40,10,30,20]
 numbers.sort()
 print(numbers)
 
+
+
+7.reverse()
+
+Reverse the order of elements.
+
+numbers = [10, 20,30, 40]
+numbers.reverse()
+print(numbers)
+
+
+8. count()
+Count how many times a value occurs.
+
+
+numbers = [10, 20,10, 30,10]
+print(numbers.count(10))
+
+9.index()
+
+Returns the index of the first occurrence of a value.
+
+
+fruits = ["Apple", "Mango", "Orange"]
+print(fruits.index("Mango"))
+
+10.copy()
+
+Create a copy of a list.
+
+
+numbers = [10, 20, 30]
+new_numbers = numbers.copy()
+print(new_numbers)
+
+
+'''
