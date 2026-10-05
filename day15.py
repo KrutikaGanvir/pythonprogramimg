@@ -237,4 +237,26 @@ new_numbers = numbers.copy()
 print(new_numbers)
 
 
+
+🔹append() vs extend()
+
+ Both method are used to add elements to a list, but they work diffrently.
+
+ 1.append() adds the entire object as one singlen element at the end of the list.
+
+ 🔸Example:
+
+numbers = [1, 2, 3]
+
+numbers.append([4,5])
+print(numbers)
+
+2.extend()
 '''
+numbers = [1, 2,3]
+
+numbers.extend([4,5])
+print(numbers)
+
+
+
