@@ -252,7 +252,7 @@ numbers.append([4,5])
 print(numbers)
 
 2.extend()
-'''
+
 numbers = [1, 2,3]
 
 numbers.extend([4,5])
@@ -260,3 +260,39 @@ print(numbers)
 
 
 
+
+🔹remove() vs pop()
+Both are used to delete elements from a list , but they work diffrently.
+
+1.remove()
+
+remove() delete an element by its value.
+
+numbers = [10, 20, 30, 40]
+numbers.remove(20)
+print(numbers)
+
+Here, 30 is removed because we specified the value 30.
+
+3.pop()
+
+pop() deletes an element by its index.
+
+numbers = [10, 20, 30 ,40]
+numbers.pop(1)
+print(numbers)
+
+Here, index 2 conatain 30, so 30 is removed.
+
+
+3.pop() without an index
+
+if no index  is given , pop( removes the last element.
+
+numbers =  [10, 20, 30, 40]
+numbers.pop()
+print(numbers)
+
+
+
+'''
