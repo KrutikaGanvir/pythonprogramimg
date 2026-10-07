@@ -295,4 +295,50 @@ print(numbers)
 
 
 
+🔹Nested List
+
+A nested list is a list that contain another list as an element.
+
+🔸Example:
+
+
+numbers = [[1, 2, 3],[4, 5, 6]]
+print(numbers)
+
+
+
+Accessing Nested List Elements
+
+We use two indexes:
+
+
+numbers = [[1, 2, 3], [4, 5, 6]]
+print(numbers[0][1])  
+print(numbers[1][2]) 
+
+
+Nested List as a Matrix
+
+Nested lists are  commonly used ti represent matrices.
+
+matrix = [
+[1, 2, 3],
+[4, 5, 6],
+[7 , 8, 9]]
+
+print(matrix[1][2])
+
+Printing All Elements
+
+Nested lists can be accessed using nested loops.
+
+
 '''
+matrix = [
+    [1, 2, 3,],
+    [4, 5, 6]
+]
+
+for row in matrix:
+    for value in row:
+        print(value, end="")
