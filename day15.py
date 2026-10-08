@@ -333,7 +333,7 @@ Printing All Elements
 Nested lists can be accessed using nested loops.
 
 
-'''
+
 matrix = [
     [1, 2, 3,],
     [4, 5, 6]
@@ -342,3 +342,56 @@ matrix = [
 for row in matrix:
     for value in row:
         print(value, end="")
+
+🔹List Comprehension
+
+List comparehension is a short and simple way to create  a new list using a single  line of code.
+
+Basic Syntax:
+
+new_list = [expression for item in iterable]
+
+1. Simple Example:
+
+Without list comprehension:
+
+
+numbers = []
+
+for i in range(1, 6):
+    numbers.append(i)
+
+print(numbers)    
+
+2. Create Squares
+
+squares = [i**2 for i in range(1, 6)]
+print(squares)
+
+
+3. List of Even Numbers
+
+even = [i for i in range(1, 11) if i % 2 == 0]
+
+print(even)
+
+4. Convert Words to Uppercase
+
+
+from doctest import Example
+
+
+names = ["rahul", "amit", "rohit"]
+
+upper_names = [name.upper() for name in names]
+
+print(upper_names)
+
+5. Example with if-else
+''' 
+
+numbers = [1, 2, 3, 4, 5]
+
+result = [ "Even" if i % 2 == 0 else "odd" for i in numbers ]
+
+print(result)
