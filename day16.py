@@ -93,7 +93,7 @@ for num in numbers:
 
 9 Merge two lists.
 
-'''
+
 
 list1 = [10, 20, 30]
 list2 = [40, 50, 60]
@@ -101,6 +101,22 @@ list2 = [40, 50, 60]
 merged_list = list1 + list2
 
 print("Merged list=", merged_list)
+
+
+10.Sort a list without using sort().
+
+'''
+
+numbers = [40,10, 30, 20, 50]
+
+n = len(numbers)
+
+for i in range(n):
+    for j in range(i + 1, n):
+        if numbers[i] > numbers[j]:
+         numbers[i], numbers[j] = numbers[j], numbers[i]
+
+print("Sorted list =",numbers)
 
 
 
