@@ -120,7 +120,7 @@ print("Sorted list =",numbers)
 
 
 11. Rotate a list by one position.
-'''
+
 
 numbers = [10,20, 30,40,50]
 last = numbers.pop()
@@ -131,3 +131,19 @@ numbers.insert(0 , last)
 print("Rotated list =", numbers)
 
 
+12. Move all zeroes to the end.
+
+
+'''
+
+numbers = [0,1 ,0, 3, 12,0 , 5]
+result = []
+for num in numbers:
+    if num != 0:
+        result.append(num)
+
+for num in numbers:
+    if num == 0:
+        result.append(num)
+
+print("Update list =" , result)               
