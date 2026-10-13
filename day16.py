@@ -105,7 +105,7 @@ print("Merged list=", merged_list)
 
 10.Sort a list without using sort().
 
-'''
+
 
 numbers = [40,10, 30, 20, 50]
 
@@ -119,7 +119,15 @@ for i in range(n):
 print("Sorted list =",numbers)
 
 
+11. Rotate a list by one position.
+'''
+
+numbers = [10,20, 30,40,50]
+last = numbers.pop()
 
 
+numbers.insert(0 , last)
+
+print("Rotated list =", numbers)
 
 
