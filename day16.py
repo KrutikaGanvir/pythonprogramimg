@@ -134,7 +134,7 @@ print("Rotated list =", numbers)
 12. Move all zeroes to the end.
 
 
-'''
+
 
 numbers = [0,1 ,0, 3, 12,0 , 5]
 result = []
@@ -147,3 +147,29 @@ for num in numbers:
         result.append(num)
 
 print("Update list =" , result)               
+
+
+
+ 13.Create a list of 5 student names and print all names.
+
+
+students = [ "Rahul" , "Amit" , "Priya" "Sneha", "Rohit"]
+
+for name in students:
+    print(name)
+
+
+
+
+13.Find sum of all elements in a list.
+    '''
+
+numbers = [10, 20, 30, 40, 50]
+
+total = 0
+
+for num in numbers:
+     total = total + num
+
+
+print("Sum of all elements = " , total)    
