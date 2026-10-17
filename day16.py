@@ -162,7 +162,7 @@ for name in students:
 
 
 13.Find sum of all elements in a list.
-    '''
+    
 
 numbers = [10, 20, 30, 40, 50]
 
@@ -172,4 +172,19 @@ for num in numbers:
      total = total + num
 
 
-print("Sum of all elements = " , total)    
+print("Sum of all elements = " , total) 
+
+
+14.Find minimum element from a list.
+
+'''
+
+numbers = [25, 10, 45, 5, 30]
+
+minimum = numbers[0]
+
+for num in numbers:
+    if num < minimum:
+        minimum = num
+
+print("Minimum element =", minimum)       
