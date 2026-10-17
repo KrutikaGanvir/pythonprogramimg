@@ -177,7 +177,7 @@ print("Sum of all elements = " , total)
 
 14.Find minimum element from a list.
 
-'''
+
 
 numbers = [25, 10, 45, 5, 30]
 
@@ -187,4 +187,19 @@ for num in numbers:
     if num < minimum:
         minimum = num
 
-print("Minimum element =", minimum)       
+print("Minimum element =", minimum)      
+
+
+15. Remove duplicate elements from a list.
+
+'''
+
+numbers = [10, 20, 10, 30,20, 40]
+
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+
+print("List after removing duplicates:", unique)        
