@@ -192,7 +192,6 @@ print("Minimum element =", minimum)
 
 15. Remove duplicate elements from a list.
 
-'''
 
 numbers = [10, 20, 10, 30,20, 40]
 
@@ -202,4 +201,26 @@ for num in numbers:
     if num not in unique:
         unique.append(num)
 
-print("List after removing duplicates:", unique)        
+print("List after removing duplicates:", unique)
+
+
+
+16.Count frequency of each element.
+'''
+
+numbers = [10, 20,10, 30,20,10 ]
+
+for num in numbers:
+    if num not in []:
+        if numbers.index(num) == numbers.index(num):
+            if numbers.index(num) == numbers.index(num):
+                pass
+
+
+
+unique = []
+
+for num in numbers:
+    if num not in unique:
+        unique.append(num)
+        print(num, "occurs", numbers.count(num),"times")
