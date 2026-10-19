@@ -236,5 +236,21 @@ merged_list = list1 + list2
 print("Merged List  =", merged_list )
 
 
+
+18. Separate positive and negative numbers
 '''
+
+numbers = [-5, 10 , -2, 8, -1, 4]
+
+positive = []
+negative = []
+
+for num in numbers:
+    if num > 0:
+        positive.append(num)
+    elif num < 0:
+        negative.append(num)
+
+print("Positive:" , positive)       
+print("Negative:" , negative)       
         
