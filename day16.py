@@ -206,7 +206,7 @@ print("List after removing duplicates:", unique)
 
 
 16.Count frequency of each element.
-'''
+
 
 numbers = [10, 20,10, 30,20,10 ]
 
@@ -224,3 +224,17 @@ for num in numbers:
     if num not in unique:
         unique.append(num)
         print(num, "occurs", numbers.count(num),"times")
+
+17.Merge two lists.
+
+list1 = [10, 20, 30]
+
+list2 = [40, 50, 60]
+
+merged_list = list1 + list2
+
+print("Merged List  =", merged_list )
+
+
+'''
+        
