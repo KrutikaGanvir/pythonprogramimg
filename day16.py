@@ -238,7 +238,7 @@ print("Merged List  =", merged_list )
 
 
 18. Separate positive and negative numbers
-'''
+
 
 numbers = [-5, 10 , -2, 8, -1, 4]
 
@@ -252,5 +252,28 @@ for num in numbers:
         negative.append(num)
 
 print("Positive:" , positive)       
-print("Negative:" , negative)       
+print("Negative:" , negative)      
+
+
+
+2.Find common elements between two lists
+
+
+
+
+a = [10, 20, 30, 40]
+b = [30, 40, 50, 60]
+
+common = []
+
+for num in a:
+    if num in b and num not in common:
+        common.append(num)
+
+print(common)        
+
+
+'''
+
+
         
