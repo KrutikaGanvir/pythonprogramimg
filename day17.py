@@ -34,6 +34,50 @@ fruits = ("Apple", "Mango", "Banana")
 print(fruits[0])
 print(fruits[-1])
 
+4. Tuple Is Immutable
+
+Once created ,tuple element cannot be modified
+
+
+
+numbers = (10, 20, 30)
+print(numbers)
+
+5. Tuple vs List
+
+
+Feature           Tuple                list
+
+Changeable        ()                    []
+
+ordered           No                    Yes
+
+Duplicates       Allowed                Allowed
+
+
+Example        (10, 20, 30)         [10, 20, 30]
+
+
+
+6. Important Tuple Methods
+
+
+Method                    Purpose
+
+count()                   Count occurence of an element
+
+index()                   Find the index of the first occrrence
+
 
 '''
+
+numbers = (10, 20, 10, 30)
+
+
+print(numbers.count(10))
+print(numbers.index(20))
+
+
+
+
 
