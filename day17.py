@@ -69,13 +69,32 @@ count()                   Count occurence of an element
 index()                   Find the index of the first occrrence
 
 
-'''
+
 
 numbers = (10, 20, 10, 30)
 
 
 print(numbers.count(10))
 print(numbers.index(20))
+
+1. Tuple Indexing
+
+
+Indexing means  accessing a particular element of a tuple using its index number.
+
+Python indexing start from 0.
+
+
+
+Example:
+
+'''
+fruits = ("Apple", "Mango", "Banana", "Orange")
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
 
 
 
