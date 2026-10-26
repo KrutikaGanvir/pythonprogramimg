@@ -88,12 +88,35 @@ Python indexing start from 0.
 
 Example:
 
-'''
 fruits = ("Apple", "Mango", "Banana", "Orange")
 
 print(fruits[0])
 print(fruits[1])
 print(fruits[2])
+
+
+2. Tuple Slicing
+
+
+Slicing means accessing a portion of a tuple.
+
+syntax:
+
+tuple_name[start:stop:step]
+
+start — index where slicing begins.
+
+stop — index where slicing ends; this index is excluded.
+
+step — interval between selected elements.
+
+
+Example 1: Basic Slicing
+'''
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[1:4])
+
 
 
 
