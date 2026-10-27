@@ -112,10 +112,48 @@ step — interval between selected elements.
 
 
 Example 1: Basic Slicing
-'''
+
 numbers = (10, 20, 30, 40, 50)
 
 print(numbers[1:4])
+
+
+
+Example 2: Slice from the Beginning
+
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[:3])
+
+
+
+Example 3: Slice to the End
+
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[2:])
+
+
+Example 4: Using Step
+
+
+
+numbers = (10, 20, 30, 40, 50, 60)
+
+print(numbers[::2])
+
+
+
+
+Example 5: Reverse a Tuple
+
+
+
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[::-1])
+
+'''
 
 
 
