@@ -153,10 +153,34 @@ numbers = (10, 20, 30, 40, 50)
 
 print(numbers[::-1])
 
+
+🔸Tuple Immutability
+
+
+1. Meaning of Tuple Immutability
+Tuple immutability means that once a tuple is created, its elements cannot be changed, added, or removed directly.
+
+In Python, tuples are immutable, unlike lists, which are mutable
+
+2. Example of Tuple Immutability
+
+
+numbers = (10, 20, 30)
+
+print(numbers)
+
+numbers[0] = 50
+
+print(numbers)
+
+
+Output:
+
+
+(10, 20, 30)
+TypeError: 'tuple' object does not support item assignment
+
 '''
-
-
-
 
 
 
