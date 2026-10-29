@@ -180,8 +180,32 @@ Output:
 (10, 20, 30)
 TypeError: 'tuple' object does not support item assignment
 
-'''
 
+3. Can We Add or Remove Elements?
+
+fruits = ("Apple", "Mango", "Banana")
+
+
+print(fruits)
+
+Tuples do not support list method such as append() and remove().
+
+
+4. How to Make Changes to a Tuple
+
+You can convert a tuple into a list, modify the list, and convert it back into a tuple.
+
+
+
+numbers = (10, 20, 30)
+
+temp = list(numbers)
+temp[0] = 50
+numbers = tuple(temp)
+
+print(numbers)
+
+'''
 
 
 
