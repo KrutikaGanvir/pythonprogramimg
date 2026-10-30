@@ -228,6 +228,43 @@ Explanation:
 
 
 
+2. index() Method
+
+The index()  method returns the index position of the first occurrence of an element in a tuple.
+
+Example:
+
+
+fruits = ("Apple", "Mango", "Banana", "Mango")
+
+print(fruits.index("Mango"))
+
+
+
+Explanation:
+- "Mango" appears at index 1 and again at index 3.
+- index() returns only the first occurrence.
+- Therefore, the output is 1.
+
+
+
+Difference Between count() and index()
+
+count()                               index()
+count occurence                       Finds position
+Returns numbers of occurence          Returns first matching index
+t-count(10)                           t.index(10)  
+
+3. Complete Example
+
+
+numbers = (10, 20, 10, 30, 10, 40)
+
+print("Tuple =", numbers)
+print("Count of 10 =", numbers.count(10))
+print("Index of 30 =", numbers.index(30))
+
+
 
 '''
 
