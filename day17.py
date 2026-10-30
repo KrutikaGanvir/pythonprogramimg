@@ -205,7 +205,32 @@ numbers = tuple(temp)
 
 print(numbers)
 
+🔸Tuple Methods
+
+Python tuples have only two built-in method because tuples are immutable (cannot be changed after creation)
+
+1. count() Method
+
+The count() method is used how many times a particular element appears in a tuple.
+
+
+
+Example:
+numbers = (10, 20, 10, 30, 10, 40)
+
+print(numbers.count(10))
+
+
+Explanation:
+- The tuple contains the number 10 three times.
+- count(10) counts its occurrences.
+- The result is 3.
+
+
+
+
 '''
+
 
 
 
